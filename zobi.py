@@ -51,18 +51,26 @@ def jalan(z):
 
 ##### LOGO #####
 logo = """
-           \033[1;97m::::::::    :::   :::   ::::::::::: 
-         \033[1;97m:+:    :+:  :+:+: :+:+:      :+:      
-        \033[1;92m+:+    +:+ +:+ +:+:+ +:+     +:+       
-       \033[1;92m+#+    +:+ +#+  +:+  +#+     +#+        
-      \033[1;92m+#+    +#+ +#+       +#+     +#+         
-     \033[1;92m#+#    #+# #+#       #+#     #+#          
-     \033[1;92m########  ###       ### ###########
+           _____             _ _
+  / ____|           (_) |
+ | (___   __ _  __ _ _| |__
+  \___ \ / _` |/ _` | | '_ \
+  ____) | (_| | (_| | | |_) |
+ |_____/ \__,_|\__, |_|_.__/
+                  | |
+                  |_|
+         
+        \
+       \0
+      \03
+     \033
+     \033
+   
 \033[1;97m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\033[1;92m๑۩۩۩๑\033[1;97m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
-\033[1;97mAuthor©\033[1;97m: \033[1;92mOmi Chaudhary
-\033[1;97mInstagram\033[1;97m: \033[1;92mhttps://www.Instagram.com/Omi6t
-\033[1;97mFacebook\033[1;97m: \033[1;92mhttps://www.facebook.com/Omi6t
-\033[1;97mWhatsapp\033[1;97m: \033[1;92m+923117675174
+\033[1;97mAuthor©\033[1;97m: \033[1;92mSaqib ur rehman
+\033[1;97mInstagram\033[1;97m: \033[1;92mhttps://www.Instagram.com/saqib
+\033[1;97mFacebook\033[1;97m: \033[1;92mhttps://www.facebook.com/saqib
+\033[1;97mWhatsapp\033[1;97m: \033[1;92m+923484160325
 \033[1;97m«-----------------------\033[1;92m✧✧\033[1;97m-----------------------»"""
 
 def tik():
@@ -88,10 +96,10 @@ print  """
 \033[1;44m | |/ |/ / /___/ /___/ /___/ /_/ / /  / / /___   \033[0m
 \033[1;44m |__/|__/_____/_____/\____/\____/_/  /_/_____/\033[0m
 \033[1;94m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\033[1;97m๑۩۩۩๑\033[1;94m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
-\033[1;94mAuthor©\033[1;91m: \033[1;97mOmi Chaudhary
-\033[1;94mInstagram\033[1;91m: \033[1;97mhttps://www.Instagram.com/Omi6t
-\033[1;94mFacebook\033[1;91m: \033[1;97mhttps://www.facebook.com/Omi6t
-\033[1;94mWhatsapp\033[1;91m: \033[1;97m+923117675174
+\033[1;94mAuthor©\033[1;91m: \033[1;97mSaqib ur rehman
+\033[1;94mInstagram\033[1;91m: \033[1;97mhttps://www.Instagram.com/Saqib
+\033[1;94mFacebook\033[1;91m: \033[1;97mhttps://www.facebook.com/Saqib
+\033[1;94mWhatsapp\033[1;91m: \033[1;97m+923484160325
 \033[1;94m«-----------------------\033[1;97m✧✧\033[1;94m-----------------------»\033[1;97m"""
 jalan("\033[1;41mDisclaimer:\033[0m \033[1;97mDeveloper Assume No Liability and Not")
 jalan("\033[1;97m            Responsible for any Misuse or Damage.")
@@ -117,10 +125,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "\033[1;91mWrong Password"
-            os.system('xdg-open https://www.Facebook.com/Omi6t')
+            os.system('xdg-open https://www.Facebook.com/saqib')
     else:
         print "\033[1;91mWrong Username"
-        os.system('xdg-open https://www.Facebook.com/Omi6t')
+        os.system('xdg-open https://www.Facebook.com/saqib')
 
 def login():
 	os.system('clear')
@@ -415,7 +423,7 @@ def pilih_super():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print "\033[1;97m«-----------------------\033[1;92m✧✧\033[1;97m-----------------------»"
-	print "\033[1;91m«-----------Developed By Omi Chaudhary-----------»"
+	print "\033[1;91m«-----------Developed By saqib ur rehman-----------»"
 	print '\033[1;92mProcess Has Been Completed\033[1;92m....'
 	print"\033[1;92mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
 	print """
